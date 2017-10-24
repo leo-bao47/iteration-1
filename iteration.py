@@ -1,5 +1,5 @@
 # Make a local change
-
+# Make a local change again
 # iteration pattern
 
 # [1, 5, 7 ,8 , 4, 3]
@@ -16,7 +16,7 @@ def iterate(list):
 def print_scores(names, scores):
 	for i in range(0, len(names)):
 		print names[i] , " scored " , scores[i]
-.
+
 
 # filter pattern
 def congratulations(names, scores):
