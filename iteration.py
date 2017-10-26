@@ -42,3 +42,29 @@ def max(numbers):
 		if n > current_max = n
 
 	return current_max
+
+def average(scores):
+	total = 0
+	for n in scores:
+		total += n
+		
+	return toal / len(scores)
+
+def averagev2(scores):
+	current_min = scores[0]
+	current_min_placement = -1
+	for n in scores:
+		if n <= cureent_min:
+			current_min = n
+	scores.remove(current_min)
+	second_min = scores[0]
+	
+	for n in scores:
+		if n <= second_min:
+			second_min = n
+	scores.remove(second_min)
+	
+	sum_averagev2 = 0
+	for n in scores:
+		sum_averagev2 += n
+	return sum_averagev2 /len(scores)
