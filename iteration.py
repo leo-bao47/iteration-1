@@ -48,7 +48,7 @@ def average(scores):
 	for n in scores:
 		total += n
 		
-	return toal / len(scores)
+	return total / len(scores)
 
 def averagev2(scores):
 	current_min = scores[0]
