@@ -13,3 +13,7 @@ print_scores(names, scores)
 congratulations(names, scores)
 
 add_one(list)
+
+average(scores)
+
+averagev2(scores)
